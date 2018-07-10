@@ -2,12 +2,13 @@
   "name": "ember-table-creation",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
+  "main": "index.js",
   "keywords": [
     "ember-addon"
   ],
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "karthik",
   "directories": {
     "doc": "doc",
     "test": "tests"
