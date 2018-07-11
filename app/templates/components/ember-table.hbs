@@ -1,0 +1,16 @@
+{{#if Data}}
+<table border="1" style="width:50%">
+  <tr>
+  {{#each title as |heading|}}
+  <th>{{heading}}</th>
+  {{/each}}
+  </tr>
+  {{#each Data as |info|}}
+      <tr>
+        {{#each info as |information|}}
+           <td>{{information}}</td>
+          {{/each}}
+     </tr>
+  {{/each}}
+  </table>
+  {{/if}}
